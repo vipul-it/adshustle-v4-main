@@ -1,0 +1,12 @@
+
+
+@media screen and (min-width:991px) {
+    html {
+        scroll-snap-type: y mandatory;
+    }
+    .child-section-main{
+        scroll-snap-align: center;
+        min-height: 100vh;
+    }
+
+}

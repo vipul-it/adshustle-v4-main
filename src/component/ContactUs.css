@@ -1,0 +1,16 @@
+
+form > input,
+textarea {
+  color: #212629!important;
+}
+.my-button {
+  background-color: var(--hero)!important;
+  color: #fff!important;
+  border-radius: 5px!important;
+  padding: 5px 10px!important;
+  border-color: var(--hero)!important;
+}
+.btn_close{
+    padding: 25px;
+    color: #212629;
+}
