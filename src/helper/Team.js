@@ -19,7 +19,7 @@ const Team = [
     {
         img: emp4,
         name: "Mohit Chaturvedi",
-        role: "Account Manager"
+        role: "Sr.Account Manager"
     },
     {
         img: emp1,

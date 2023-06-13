@@ -2,9 +2,9 @@ import React from "react";
 
 import "./Fifthpage.css";
 
-import FeaturedData from "../helper/featureData";
+import FeaturedData from "../helper/FeatureData";
 
-const fifthpage = () => {
+const Fifthpage = () => {
   return (
     <>
       <div className="fifthpage">
@@ -96,4 +96,4 @@ const fifthpage = () => {
   );
 };
 
-export default fifthpage;
+export default Fifthpage;

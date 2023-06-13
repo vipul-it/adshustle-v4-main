@@ -11,7 +11,7 @@ import FourthP from "./FourthP";
 import SeventhP from "./SeventhP";
 import EighthP from "./EighthP";
 
-const landingpage = () => {
+const Landingpage = () => {
   return (
     <div className="">
       <div className="child-section-main">
@@ -25,9 +25,9 @@ const landingpage = () => {
       <div className="child-section-main">
         <Fifthpage />
       </div>
-      <div className="child-section-main">
+      {/* <div className="child-section-main">
         <FourthP />
-      </div>
+      </div> */}
       <div className="child-section-main">
         <AboutUs />
       </div>
@@ -41,4 +41,4 @@ const landingpage = () => {
   );
 };
 
-export default landingpage;
+export default Landingpage;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./EighthP.css";
-import Team from "../helper/team";
+import Team from "../helper/Team";
 import p1 from "../assets/ourpresence/1.jpg";
 import p2 from "../assets/ourpresence/2.jpg";
 import p3 from "../assets/ourpresence/3.jpg";
