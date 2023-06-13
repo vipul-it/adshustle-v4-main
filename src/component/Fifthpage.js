@@ -77,7 +77,7 @@ const Fifthpage = () => {
         <div className="featured-card">
           <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 f-card">
             {FeaturedData.map((value, key) => (
-              <div className="col-md card" key={key}>
+              <div className="col-md container card card_box" key={key}>
                 <div className="img ">
                   <img src={value.logo} alt="" />
                 </div>

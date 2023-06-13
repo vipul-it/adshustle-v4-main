@@ -3,11 +3,9 @@
   height: 100vh;
   overflow: hidden;
   /* border: red 2px solid !important; */
-  
 }
 
 .sec-page {
-  
   height: 60vh;
   overflow: hidden;
   top: 0;
@@ -15,10 +13,9 @@
 }
 .third-page {
   width: 100%;
-  
+
   overflow: hidden;
   height: 30vh;
-         
 }
 .fourth-page {
   width: 100%;
@@ -46,10 +43,10 @@
 
 @media screen and (max-width: 768px) {
   .sec-card-f {
-    padding: 0;
+    padding: 0 0.5rem;
     height: 100px;
+    margin-top: 0px;
   }
-  
 
   .sec-card-f p {
     position: relative;
@@ -60,13 +57,97 @@
   }
 
   .sec-card {
-    height: 30vh;
-    padding: 4rem 2rem !important;
+    height: 42vh;
+    padding: 2rem 2rem !important;
+    overflow: visible;
   }
 
   .sec-card-f p {
     font-size: 67px !important;
     width: 100% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-wrapper {
+    width: 100%;
+    height: 175px;
+    display: flex;
+  }
+  .slider .slide {
+    width: 250px;
+    background-color: var(--hero);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px !important;
+  }
+  .slider {
+    height: 60px !important;
+  }
+  .fourth-page {
+    width: 100%;
+
+    overflow: visible !important;
+    height: 170px !important;
+    margin-top: 100px !important;
+  }
+  .second-page {
+    width: 100%;
+    height: 1600px !important;
+    overflow: visible;
+  }
+  .sec-card-f p {
+    font-size: 45px !important;
+    width: 100% !important;
+    height: 100px !important;
+    margin-top: -20px !important;
+  }
+
+  .sec-page {
+    height: 750px;
+    overflow: visible;
+    top: 0;
+    bottom: 0;
+  }
+  .third-page {
+    width: 100%;
+    overflow: visible;
+    height: 520px !important;
+  }
+
+  .sec-card-f {
+    padding: 0 0.5rem;
+    height: 80px !important;
+    padding-top: -18px !important;
+  }
+  #discover {
+    margin-top: -30px !important;
+  }
+  .third-card {
+    width: 95% !important;
+    display: flex;
+    margin: 0 20px 0 10px !important;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    height: 300px !important;
+    overflow: visible;
+    /* border: red 5px solid !important; */
+
+    /* min-height: 200px !important; */
+  }
+
+  #third-text {
+    /* font-size: 22px; */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 10px !important;
+    border: red 5px solid !important;
+    height: 200px !important;
+    overflow: visible;
   }
 }
 
@@ -149,7 +230,6 @@
 /* third page start */
 
 .third-card {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,14 +240,21 @@
 
 .third-card:nth-child(1) {
   background: linear-gradient(180deg, #131618 0%, rgba(19, 22, 24, 0.85) 100%);
-} 
+}
 
 .third-card:nth-child(2) {
   padding: 1rem 3rem !important;
-} 
+}
 
 #third-text {
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 10px !important;
+  border: red 2px !important;
 }
 
 .third-card:nth-child(1) p {
@@ -197,7 +284,6 @@
   width: 100%;
   /* height: 75px; */
   display: flex;
-  
 }
 
 @media screen and (max-width: 956px) {
@@ -211,7 +297,6 @@
     height: 70px !important;
   }
 }
-
 
 .wrapper-sec {
   width: inherit !important;

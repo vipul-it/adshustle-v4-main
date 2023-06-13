@@ -25,9 +25,9 @@ const Landingpage = () => {
       <div className="child-section-main">
         <Fifthpage />
       </div>
-      {/* <div className="child-section-main">
+      <div className="child-section-main">
         <FourthP />
-      </div> */}
+      </div>
       <div className="child-section-main">
         <AboutUs />
       </div>

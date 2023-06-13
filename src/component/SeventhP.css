@@ -1,269 +1,258 @@
-    
-.Seventh-page{
-    width: 100%;
-    height: 100vh;
-   
-    overflow: hidden;
+.Seventh-page {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
-.seventhpage{
-   height: 70vh;
+.seventhpage {
+  height: 70vh;
 }
 .customer-heading {
-    background: linear-gradient(180deg, #131618 0%, rgba(19, 22, 24, 0.85) 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-  }
-  
+  background: linear-gradient(180deg, #131618 0%, rgba(19, 22, 24, 0.85) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.customer-heading p {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 72px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.customer-heading span {
+  color: var(--hero);
+}
+
+.customer-heading p::after {
+  content: "";
+  position: absolute;
+  background-color: var(--hero);
+  height: 2px;
+  display: flex;
+  width: 200px;
+  margin: 0 25rem;
+}
+
+@media screen and (max-width: 660px) {
   .customer-heading p {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 72px;
-    color: #FFFFFF;
-    margin: 0 auto;
+    font-size: 30px;
   }
-  
-  .customer-heading span {
-    color: var(--hero);
+  .brand-img > img {
+    width: 70px !important;
   }
-  
+ 
+
   .customer-heading p::after {
-    content: '';
+    content: "";
     position: absolute;
     background-color: var(--hero);
     height: 2px;
     display: flex;
-    width: 200px;
-    margin: 0 25rem;
+    width: 120px;
+    margin: -8px 13rem;
+    
   }
-  
-  @media screen and (max-width:660px) {
-    .customer-heading p {
-        font-size: 30px;
-    }
-  
-    .customer-heading p::after {
-        content: '';
-        position: absolute;
-        background-color: var(--hero);
-        height: 2px;
-        display: flex;
-        width: 120px;
-        margin: 0 13rem;
-    }
+  .Seventh-page {
+    width: 100%;
+    height: 900px;
+    overflow: visible;
   }
-  
-  
-  /* Customer Card */
-  
+}
+
+/* Customer Card */
+
+.customer-card {
+  /* height: 50vh; */
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.customers {
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
   .customer-card {
-    /* height: 50vh; */
+    /* height: 80vh; */
     margin: 0 auto;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
   }
-  
-  .customers {
-    display: flex;
-    gap: 2rem;
-    margin: 0;
-  }
-  
-  @media screen and (min-width:1400px) and (max-width:1600px) {
-    .customer-card {
-        /* height: 80vh; */
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-  }
-  
-  
-  
-  .customer {
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 20px;
-    gap: 1rem;
-    cursor: pointer;
-  }
-  
-  .customer-message {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .customer-message p {
-    font-family: 'Roboto';
-    margin: 0 auto;
-  }
-  
-  .customer-img img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  
-  .rating img {
-    margin: 0 auto;
-  }
-  
-  .customer-name{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .customer-name p {
-    font-family: 'Roboto';
-    margin: 0 auto;
-    font-weight: 500;
-  }
-  
-  .customer-name p:nth-child(2){
-    font-weight: bolder;
-  }
-  
-  #read-more {
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration: underline;
-    color: #7E7E7E !important;
-  }
-  
-  
-  /* Card Section */
-  
-  section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    /* background-color: #7d2ae8; */
-    /* height: 350px; */
-  }
-  
-  
-  
-  .card-slide {
-    background: #fff;
-    margin: 10px 0;
-    overflow: hidden;
-    
-  }
-  
-  
-  
-  .card-slide .card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
-    gap: 20px;
-    overflow: hidden;
-    
-  }
-  
-  
-  .card-slide .rating i {
-    font-size: 18px;
-    margin: 0 2px;
-    color: var(--hero);
-  }
-  
-  
-  
+}
+
+.customer {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.customer-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.customer-message p {
+  font-family: "Roboto";
+  margin: 0 auto;
+}
+
+.customer-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.rating img {
+  margin: 0 auto;
+}
+
+.customer-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customer-name p {
+  font-family: "Roboto";
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.customer-name p:nth-child(2) {
+  font-weight: bolder;
+}
+
+#read-more {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #7e7e7e !important;
+}
+
+/* Card Section */
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* background-color: #7d2ae8; */
+  /* height: 350px; */
+}
+
+.card-slide {
+  background: #fff;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.card-slide .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.card-slide .rating i {
+  font-size: 18px;
+  margin: 0 2px;
+  color: var(--hero);
+}
+
 /* brand css start    */
 .hero-brands {
-    background: linear-gradient(180deg, #131618 0%, rgba(19, 22, 24, 0.85) 100%);
-    padding: 1rem 0;
-    padding-top: -1rem;
-    
-    height: 30vh;
+  background: linear-gradient(180deg, #131618 0%, rgba(19, 22, 24, 0.85) 100%);
+  padding: 1rem 0;
+  padding-top: -1rem;
+
+  height: 30vh;
 }
 
 .brands {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .brands p {
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 64px;
-    color: var(--white);
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: var(--white);
 }
 
 .brands span {
-    color: var(--hero);
+  color: var(--hero);
 }
 
 /* carousel Brand images */
 
-
 .brand-carousel {
-    display: flex;
-    /* justify-content: space-between; */
-    /* justify-content: center; */
-    gap: 4rem;
-    overflow: hidden;
+  display: flex;
+  gap: 4rem;
+  overflow: hidden;
 }
 
-
 .brand-img {
-    animation: scroll-brand 40s linear infinite;
-	display: flex;
-	width: calc(250px * 14);
-    /* padding: 2rem 0; */
-    /* animation: slide 3s ease-in infinite alternate-reverse; */
+  /* animation: scroll-brand 40s linear infinite; */
+  display: flex;
+  width: calc(250px * 14);
+  padding: 0rem 0;
+  animation: slide 14s linear infinite;
 }
 
 @keyframes slide {
-    0% {
-        transform: translateX(-500%);
-    }
-
-    50% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
+  
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 8));
+  }
 }
 
-.brand-img>img {
-    width: 100px;
+.brand-img > img {
+  width: 100px;
 }
-
 
 /* Brand Slider-ss */
-.hero-brands{
-    position: relative;
-    overflow: hidden;
+.hero-brands {
+  position: relative;
+  overflow: hidden;
 }
 
-
 @keyframes scroll-brand {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 8)); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 8));
+  }
 }
 
 /* brand css end    */

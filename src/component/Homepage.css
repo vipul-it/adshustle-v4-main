@@ -14,7 +14,7 @@
   top: 0;
   left: 0;
   z-index: 1;
-  border: #fa7e31 2px solid;
+
 }
 .image_size {
   width: 100%;
@@ -177,13 +177,13 @@
 @media screen and (max-width: 650px) {
   .hero-page {
     width: 100%;
-    height: 60vh;
+    height: 50vh !important;
     overflow: visible !important;  
   }
   .image_size {
     width: 100%;
-    height: 60vh;
-    object-fit: cover;
+    height: 50vh !important;
+    object-fit: cover !important;
   }
   
   
