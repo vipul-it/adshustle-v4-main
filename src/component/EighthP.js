@@ -19,8 +19,6 @@ import { Link as ScrollLink } from "react-scroll";
 
 import Logo from "../assets/footer/footer-logo.png";
 
-import { AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 const EighthP = () => {
   return (
