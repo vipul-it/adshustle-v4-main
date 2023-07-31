@@ -225,8 +225,7 @@ const EighthP = () => {
                     <p id="address">Address</p>
                     <ul>
                       <li>
-                        2343, Tower B, Landcraft Golf Links Site, Ghaziabad U.P.
-                        201001 India.
+                        809, T-4, Assotech Business Cresterra, Sector-135, Noida 201301
                       </li>
                     </ul>
                   </div>
